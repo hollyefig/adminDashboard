@@ -26,8 +26,6 @@
     --secondColor: rgb(129, 203, 245);
 }
 
-
-
 /* begin body  */
 
 body {
@@ -154,6 +152,8 @@ h3 {
 .userPanel form select {
     padding:.5em;
     border-radius: 10px;
+    border:1px solid #000;
+    background-color: transparent;
 }
 
 .welcome {
@@ -312,5 +312,19 @@ h3 {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color:pink;
+    background-color:var(--mainColor);
+    opacity: .5;
+}
+
+@media only screen and (max-width:1010px) {
+    .wrapper {
+        grid-template-columns: none;
+    }
+
+    .sideBar {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        overflow: hidden;
+    }
 }
