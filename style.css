@@ -16,6 +16,18 @@
     --secondColor: rgb(102, 212, 212);
 }
 
+.green {
+    --mainColor: rgb(111, 194, 84);
+    --secondColor: rgb(212, 102, 151);
+}
+
+.yellow {
+    --mainColor: rgb(221, 187, 62);
+    --secondColor: rgb(129, 203, 245);
+}
+
+
+
 /* begin body  */
 
 body {
@@ -37,7 +49,7 @@ h3 {
     width: 100%;
 }
 
-/* sidebar  */
+/* left sidebar  */
 
 .sidebarGrid {
     padding:1.3em;
@@ -137,6 +149,11 @@ h3 {
     border-radius: 25px;
     background-image: url(./images/josie.JPG);
     background-size: cover;
+}
+
+.userPanel form select {
+    padding:.5em;
+    border-radius: 10px;
 }
 
 .welcome {

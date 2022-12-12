@@ -1,12 +1,17 @@
 const doc = document.documentElement;
-console.log(doc);
-
 const theme = () => {
   doc.className = "default";
 };
 
-const iconsWrapper = document.querySelectorAll(".iconsWrapper");
+const themeSelect = document.querySelector("#theme").children;
 
+const themeChange = (e) => {
+  const i = e.options.selectedIndex;
+  let change = themeSelect[i].className;
+  doc.className = change;
+};
+
+const iconsWrapper = document.querySelectorAll(".iconsWrapper");
 iconsWrapper.forEach((e) => {
   const fav = document.createElement("div");
   const watch = document.createElement("div");
