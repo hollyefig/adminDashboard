@@ -162,6 +162,10 @@ h3 {
     font-size: 1rem;
 }
 
+.userPanel h4 {
+    font-size: clamp(11px, .9rem, 3vw);
+}
+
 .userIconSmall {
     height: 40px;
     width: 40px;
@@ -301,6 +305,7 @@ h3 {
     overflow:hidden;
     color: var(--textGrey);
     font-size: .8rem;
+    white-space: nowrap;
 }
 
 .announcementsGrid > div h4,
