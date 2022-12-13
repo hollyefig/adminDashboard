@@ -402,8 +402,9 @@ h3 {
         justify-self: start;
     }
 
-    .welcome h4 {
+    .welcome h2 {
         font-size: 4vw;
+        line-height: 19px;
     }
 }
 
