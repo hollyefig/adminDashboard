@@ -393,7 +393,7 @@ h3 {
     }
 
     .rightSide {
-        grid-template-rows: 21vh 5fr; 
+        grid-template-rows: 25vh 5fr; 
     }
 
     .search, .userPanel {
