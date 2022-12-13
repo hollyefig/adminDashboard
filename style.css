@@ -28,6 +28,10 @@
 
 /* begin body  */
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Hind', sans-serif;
     --white: #fff;
@@ -45,6 +49,7 @@ h3 {
     grid-template-columns: 1fr 5fr;
     height: 100vh;
     width: 100%;
+    overflow-x: hidden;
 }
 
 /* left sidebar  */
@@ -354,7 +359,7 @@ h3 {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 860px) {
     .mainContent {
         grid-template-columns: 1fr 1fr;
     }
